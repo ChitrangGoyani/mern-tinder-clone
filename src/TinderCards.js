@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import './TinderCards.css';
 import TinderCard from "react-tinder-card";
-import { SwipeableDrawer } from '@material-ui/core';
+
 function TinderCards() {
     const [people,setPeople] = useState([{
         name: 'Elon Musk',
